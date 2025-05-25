@@ -1,6 +1,6 @@
 {
     "name": "openai-starter",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "private": true,
     "scripts": {
         "dev": "next dev --turbopack",
@@ -11,7 +11,7 @@
         "format": "prettier --write ."
     },
     "dependencies": {
-        "@next/env": "^15.4.0-canary.51",
+        "dotenv": "^16.5.0",
         "next": "15.3.2",
         "openai": "^4.103.0",
         "react": "^19.0.0",
